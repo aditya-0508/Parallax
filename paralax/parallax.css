@@ -1,0 +1,49 @@
+body{
+    line-height: 1.8em;
+    color: #666666;
+    margin: 0;
+    height: 100%;
+    font-weight: 400;
+}
+.first{
+    background-image: url(pics/image1.png);
+    height: 400px;
+}
+.second{
+    background-image: url(pics/image2.png);
+    height: 400px;
+}
+.third{
+    background-image: url(pics/image3.png);
+    height: 400px;
+}
+.first,.second,.third{
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-position: center;
+    background-attachment: fixed;/*helps in creating the image as fixed*/
+}
+.para{
+    position: absolute;/*Adjusts according to the document, the top and width is there part*/
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: black;
+    letter-spacing: 9px;
+    font-size: 29px;
+}
+.tex{
+   background-color: #666666;
+   padding: 8px;
+}
+.sect{
+    text-align: center;
+    padding: 5px 100px;
+}
+.sectdarker{
+    text-align: center;
+    background-color:#282e34;
+    padding: 5px 100px;
+    color: #ddd;
+}
